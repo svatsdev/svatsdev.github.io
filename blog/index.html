@@ -1,1 +1,180 @@
+<!-- So basically I am just learning to create my own blog
+So it will be full of nonsense. But will come up with a great one soon! 
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<meta http-equiv="Content-Type" content="text/html; charset: utf-8;"/>
+	<header id="header"></header>
+	 <head>
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster&family=Suez+One&display=swap" rel="stylesheet">
+		<title>Java</title>
+	</head>
+	
+	<style>
+		.roundimg{
+			border-radius: 30%;
+			border-color: maroon;
+			border-width: 15px;
+			border-style: solid;
+		}
+		p{
+			font-size: 23px;
+			font-family: 'Abel';
+		}
 
+		.align{
+			text-align: right;
+		}
+		
+		li{
+			font-size: 23px;
+			font-family: 'Abel';
+		}
+		
+		h1{
+			font-size: 60px;
+			color: red;
+			font-family: 'Lobster', cursive;
+		}
+		
+		h2{
+			font-size: 30px;
+			font-family: 'Suez One';
+		}
+		
+		h3{
+			font-size: 25px;
+			font-family: 'Suez One';
+		}
+	</style>
+	
+	<body>
+		<a href="/">Back to Home Page</a>
+		<h1>Shree's blog</h1>
+			<a href="#footer" style="font-size: 24; font-family: monospace; color: blue; background: aqua; border: 3px solid;">Jump to bottom</a>
+			<p>
+				-> To View my github profile <a style="color: blue;" href="https://github.com/Shreevaths45" target="_blank">click here</a>
+				<br>
+				-> To View my twitter profile <a style="color: blue;" href="https://twitter.com/Shreevaths1" target="_blank">click here</a>
+			</p>
+			
+		<a href="#">
+		<img src="D:\Pictures\laser.jpg" alt = "Java Coffee" width="900" height="300" class="roundimg">
+		</a>
+		
+		<p>
+		This is Shreevathsa Kalyan's first blog. Let us start Java, shall we?? I am feeling so excited!!!
+		</p>
+		
+		<h3 id="contents">Contents</h3>
+		<ul>
+			<li><a href="#l1">Classes and Objects</a></li>
+			<li><a href="#l2">Encapsulation</a></li>
+			<li><a href="#l3">Abstraction</a></li>
+			<li><a href="#l4">Inheritance</a></li>
+			<li><a href="#l5">Polymorphism</a></li>
+		</ul>
+		
+		
+		
+		<main>
+			<h2>OOP in Java</h2>
+			<h3>Introduction</h3>
+			<p>
+			Java is a class-based, object-oriented programming language. It is a general-purpose programming language 
+			to let application developers write once, run anywhere (WORA), meaning that compiled Java source code can 
+			run on all platforms that support Java without the need for recompilation. Java source codes are compiled 
+			to bytecode that can run on any Java Virtual Machine (JVM) regardless of the underlying computer architecture. 
+			Its syntax is similar to C and C++, but it has fewer low level facilities than either of them. It is 
+			one of the most popular programming languages, particularly for client-server web applications.
+			It was originally developed by James Gosling at Sun Microsystem for interactive television, but it 
+			was too advanced for the digital cable television industry at the time. The language was initially 
+			called Oak after an oak tree that stood outside Gosling’s office. Later it went by the name Green 
+			and was finally renamed Java, from Java coffee.
+			<br><br>
+			Sun Microsystems released the first public implementation as Java 1.0 in 1996.Major web browsers 
+			soon incorporated the ability to run Java applets within web pages. With the advent of Java 2 
+			(released initially as J2SE 1.2) new versions had multiple configurations built for different 
+			types of platforms. J2EE, the enterprise edition included technologies and API’s for enterprise
+			applications run in large distributed server environments. Java software runs on everything from 
+			laptops to data centers, game consoles to supercomputers. 
+			OOP stands for Object-Oriented Programming.
+			<br><br>
+			Procedural Programming is about writing procedures/methods that perform operations on data, while object-oriented programming is about creating real time entities called objects that contain both data (known as states of an object) and methods (implements the behaviour of an object).
+			The main advantages of OOP over procedural programming is that it is faster and easier to execute, provides a clear structure for the programs, helps to keep code DRY “Don’t Repeat Yourself”, makes the code easier to maintain, modify and debug, and finally makes it possible to create full reusable applications with less code and shorter development time.
+			<br>
+			<br>
+			</p>
+			
+			<h2>OOP CONCEPTS IN JAVA</h2>
+			<br>
+			<ol>
+				
+				<li><h4 id="l1">Classes and Objects</h4></li>
+				<h4 class="align"><a href="#contents">Jump to top</a></h4>
+				<p>
+				Classes and objects are the two main aspects of object-oriented programming. 
+				Any Class is a template/ blueprint/ prototype for an object. In other words, it is nothing but 
+				user-defined data type which can be used to create new objects. Class members include constructors, 
+				attributes, methods, blocks and classes within them too (Nested Classes).
+				An object is said to be an instance/ occurrence of a Class. Every object has unique states 
+				(attributes) and behaviours (methods). Using the dot operator (.), one can access and modify 
+				the methods and attributes of the class from which it is instantiated.
+				</p>
+				
+				<li><h4 id="l2">Encapsulation</h4></li>
+				<h4 class="align"><a href="#contents">Jump to top</a></h4>
+				<p>
+				Encapsulation is to make sure that ‘sensitive’ data is hidden from users. It is a mechanism 
+				of wrapping the data (attributes) and code acting on the data (methods) together as a single unit. It 
+				is combination of Data-Hiding and Abstraction. It is implemented by:
+				</p>
+				
+				<ul>
+				<li>Restricting class attributes to private access level. This means that 
+				such members can be accessed and modified only within that class, not beyond it.</li>
+				<li>Provide public get and set methods to access and modify the value of a private attribute.</li>
+				</ul>
+				
+				
+				<li><h4 id="l3">Abstraction</h4></li>
+				<h4 class="align"><a href="#contents">Jump to top</a></h4>
+				<p>
+				Abstraction is process of hiding certain details and showing only essential information to the user. Ex: A car is viewed as a car rather than its individual components. It can achieved with either abstract classes or interfaces (to achieve 100% abstraction). The abstract keyword is a non-access modifier used to declare abstract classes and abstract methods. 
+				Abstract classes are restricted classes that cannot be used to create objects and it must be inherited. Abstract methods  can be used only in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+				An Abstract Class can have both abstract and regular methods.
+				</p>
+				
+				<li><h4 id="l4">Inheritance</h4></li>
+				<h4 class="align"><a href="#contents">Jump to top</a></h4>
+				<p>
+				Inheritance in Java is used to define a IS-A relationship between classes. We group the 
+				“inheritance-concept” into two categories:
+				</p>
+				
+				<ul>
+				<li>Subclass (child class) – the class that inherits from another existing class</li>
+				<li>Superclass (Parent class) – the class being inherited from</li>
+				</ul>
+				
+				<p>
+				To inherit from a class, use the extends keyword. These are some of the common inheritance types supported by Java :-
+				</p>
+				
+				<ul>
+				<li>Single level inheritance – A single child class inheritance a single parent class.</li>
+				<li>Multi-Level Inheritance – There is a chain of inheritances.</li>
+				<li>Hierarchical Inheritance – Two or more child classes inherit a single parent class.</li> 
+				</ul>
+				
+				<li><h4 id="l5">Polymorphism</h4></li>
+				<h4 class="align"><a href="#contents">Jump to top</a></h4>
+				<p>
+				Polymorphism means “many forms”, and it occurs when we have many classes that are related to each other by inheritance. We know that Inheritance allows us to inherit attributes and methods from another existing class. Polymorphism uses those methods to perform different tasks, known as Method Overriding. This allows us to perform a single action in different ways.
+				</p>
+				
+			</ol>
+		</main>
+		<a href="#header" style="font-size: 24; font-family: monospace; color: blue;">Jump to Top</a>
+	</body>
+<footer id="footer"></footer>

@@ -1,0 +1,190 @@
+@media screen and (max-width: 415px){
+    #para1{
+        position: relative;
+        bottom: 30%;
+        right: -54%;
+        text-align: left;
+        font-size: 110px;
+        font-family: 'JetBrains Mono';
+        border: 8px solid darkslategray;
+        border-radius: 30px;
+        background-color: lightslategrey;
+        margin: 5%  39% 2% -52%;
+        /* margin-right: 35%; */
+        /* margin-left: -40%; */
+        padding: 27% 8% 4% 5%;
+    }
+    #head{
+        position: absolute;
+        top: 2%;
+        padding-left: 50px;
+        font-weight: bold;
+        font-size: 43px;
+        font-family: 'JetBrains Mono';
+    }
+    .bot-top{
+        top: 5%;
+        left: 44%;
+        position: relative;
+        background: whitesmoke;
+        width: 20%;
+        height: 10%;
+        border-radius: 50% 50% 80% 80%;
+    }
+    .bot-body{
+        top: 6%;
+        left: 34.5%;
+        position: relative;
+        background-color: whitesmoke;
+        width: 40%;
+        height: 36%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-overlay{
+        top: 12%;
+        left: 15%;
+        position: absolute;
+        background-color:royalblue;
+        width: 35%;
+        height: 28%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .overlay{
+        z-index: 9;
+        margin: 15% 20% 21.5% 22.3%;
+    }
+    .bot-left10{
+        top: -33%;
+        left: 11%;
+        position: relative;
+        background-color: black;
+        width: 10%;
+        height: 5%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(70deg);
+    }
+    .bot-left1{
+        top: -29%;
+        left: 21%;
+        position: relative;
+        background-color: white;
+        width: 16%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-left2{
+        top: -23%;
+        left: 5.5%;
+        position: relative;
+        background-color: white;
+        width: 29%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-left3{
+        top: -15.6%;
+        left: 19.4%;
+        position: relative;
+        background-color: white;
+        width: 16%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-left31{
+        top: -2.4%;
+        left: 21.7%;
+        position: relative;
+        background-color: black;
+        width: 8%;
+        height: 5%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(-70deg);
+    }
+    .bot-left4{
+        top: -18.5%;
+        left: 89%;
+        position: relative;
+        background-color: black;
+        width: 15%;
+        height: 3%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(50deg);
+    }
+    .bot-left41{
+        top: -16.7%;
+        left: 29.1%;
+        position: relative;
+        background-color: white;
+        width: 12%;
+        height: 3%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(-25deg);
+    }
+    .bot-right1{
+        top: -51.3%;
+        left: 72.6%;
+        position: relative;
+        background-color: white;
+        width: 16%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-right2{
+        top: -35.5%;
+        left: 74.5%;
+        position: relative;
+        background-color: white;
+        width: 17%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-right30{
+        top: -55%;
+        left: 88%;
+        position: relative;
+        background-color: black;
+        width: 10%;
+        height: 5%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(-70deg);
+    }
+        .bot-right3{
+        top: -46.8%;
+        left: 75%;
+        position: relative;
+        background-color: white;
+        width: 29%;
+        height: 2%;
+        border-radius: 40% 40% 50% 50%;
+    }
+    .bot-right31{
+        top: -25%;
+        left: 76.5%;
+        position: relative;
+        background-color: black;
+        width: 8%;
+        height: 5%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(70deg);
+    }
+    .bot-right4{
+        top: -36%;
+        left: 68.5%;
+        position: relative;
+        background-color: white;
+        width: 11%;
+        height: 3%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(25deg);
+    }
+    .bot-right41{
+        top: -43.8%;
+        left: 6.3%;
+        position: relative;
+        background-color: black;
+        width: 14%;
+        height: 3%;
+        border-radius: 40% 40% 50% 50%;
+        transform: skewY(-50deg);
+    }
+}

@@ -101,7 +101,7 @@ img{
 }
 
 
-@media screen and (max-width: 412px){
+@media screen and (max-device-width: 412px){
     
     img {
         width: 60em;

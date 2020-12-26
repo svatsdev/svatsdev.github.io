@@ -29,7 +29,6 @@ img{
 }
 
 
-
 @media screen and (max-width: 1297px){
     #para1{
         border-radius: 5%;
@@ -101,7 +100,8 @@ img{
     }
 }
 
-@media screen and (max-width: 412px),(max-height: 892px){
+
+@media screen and (max-width: 412px){
     
     img {
         width: 60em;
@@ -122,8 +122,3 @@ img{
         background-color: rgb(4, 104, 91);
     }
 }
-
-
-
-
-

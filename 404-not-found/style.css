@@ -101,7 +101,27 @@ img{
     }
 }
 
+@media screen and (max-width: 412px),(max-height: 892px){
+    
+    img {
+        width: 60em;
+        border-radius: 4%;
+    }
 
+    #para1{
+        border-radius: 5%;
+        padding: -2.6em 1em 2em 1.5em;
+        margin-left: 0em;
+        margin-bottom: 6em;
+        margin-top: 4.1em;
+        font-family: 'JetBrains Mono';
+        font-size: 107px;
+        position: sticky;
+        bottom: 0.5em;
+        left: 60%;
+        background-color: rgb(4, 104, 91);
+    }
+}
 
 
 

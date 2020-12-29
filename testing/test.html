@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Test html/css</title>
+        <link href="D:\Html Projects\testing\style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <style>
+        pre{font-family: "JetBrains Mono"}
+        img{
+            border: 1px solid darkblue;
+            border-radius: 5px;
+            box-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+            width: 180px;
+            height: 240px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row{
+            margin: 0 -5px;
+        }
+
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        body{
+            font-family: 'JetBrains Mono';
+        }
+        .fullCard{
+            float: left;
+            margin: 1em 2em 1em 4em;
+            width: 300px;
+            
+            border: 1px solid darkblue;
+            border-radius: 5px;
+            padding: 0 10px;
+            box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+        }
+        h3{
+            text-align: center;  
+        }
+        .cardContent{
+            padding: 15px 15px 15px 15px;
+        }
+        .cardText{
+            
+        }
+        .cardLink{
+            text-align: left;
+        }
+
+    </style>
+
+    <body>
+        <div class="row">
+            <div class="fullCard">
+                <div class="cardContent">
+                    <img src="\testing\sean.jpg" alt="sean connery">
+                    <div class="cardText">
+                        <h3>Sean Connery</h3>
+                        <h3>1930 – 2020</h3><hr>
+                        <details>
+                            <summary>Who is he?</summary>
+                            <p> He was a Scottish actor. 
+                                He became known as the first actor to portray fictional British secret 
+                                agent James Bond in film, starring in seven Bond films between 1962 and 1983. 
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Sean_Connery">Sean Connery/wikipedia</a>
+                        </details>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullCard">
+                <div class="cardContent">
+                    <img src="\testing\robert.jpg" alt="robert di niro">
+                    <div class="cardText">
+                        <h3>Robert Di Niro</h3>
+                        <h3>1943 - Present</h3><hr>
+                        <details>
+                            <summary>Who is he?</summary>                            
+                            <p> He is an American actor, producer, and director. Born in Manhattan in New York City, 
+                                De Niro studied acting at HB Studio, Stella Adler Conservatory, and Lee Strasberg's Actors Studio.  
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Robert_De_Niro">Robert Di Niro/wikipedia</a>
+                        </details>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullCard">
+                <div class="cardContent">
+                    <img src="\testing\anthony.jpg" alt="anthony hopkins">
+                        <pre style="position: relative; left: -0.8em"><h3>Sir Philip Anthony Hopkins</h3></pre>
+                        <h3>1937 - Present</h3><hr>
+                        <details>    
+                            <summary>Who is he?</summary>
+                            <p> He is a Welsh actor, composer, director and film producer. After graduating from the Royal Welsh 
+                                College of Music & Drama, he trained at the Royal Academy of Dramatic Art in London.  
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Anthony_Hopkins">Anthony Hopkins/wikipedia</a>
+                        </details>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullCard">
+                <div class="cardContent">
+                    <img src="\testing\denzel.jpg" alt="denzel washington">
+                    <div class="cardText">
+                        <pre style="position: relative; left: -0.8em;""><h3>Denzel Hayes Washington Jr.</h3></pre>
+                        <h3>1954 - Present</h3><hr>
+                        <details>
+                            <summary>Who is he?</summary>
+                            <p>He is an American actor, director, and producer. He has been described as an actor who reconfigured 
+                                "the concept of classic movie stardom", associating with characters defined by their grace, dignity, 
+                                humanity, and inner strength. He has received seventeen NAACP Image Awards, three Golden Globe Awards, 
+                                one Tony Award, and two Academy Awards.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Denzel_Washington">Denzel Washington/wikipedia</a>
+                        </details>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
